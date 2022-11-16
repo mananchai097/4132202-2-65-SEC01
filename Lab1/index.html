@@ -6,15 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Hello World</h1>
-    <h2>Mananchai Noppaban</h2>
-    <p>ID : 620112418097 <br> Nickname : Nes</p>
+    <h1 style="color: red;">Hello World</h1>
+    <h2 class="blue">Mr.Mananchai Noppaban</h2>
+    <p class="blue" id="bold">ID : 620112418097 <br> Nickname : Nes</p>
     <p><strong>Program</strong> : <i>Information Technoligy</i></p>
     <p>Burirum Rajabhat
-        <span class="yellow" style="color: rgb(8, 0, 255);">Umivercity</span></p>
+        <span class="yellow">Umivercity</span></p>
+    <form action="#" method="GET">
+        <label>Username</label>
+        <input type="text" id="in1" name="user" required>
+        <br>
+        <label>Password</label>
+        <input type="password" id="in2" name="pass" required>
+        <hr>
+
+        <input type="checkbox" name="ch1" checked>
+        <input type="checkbox" name="ch2">
+        <input type="hidden">
+        <br>
+
+        <input type="radio" name="rad1" checked>
+        <input type="radio" name="rad1">
+        <br>
+
+        <input type="email" placeholder="E-mail....." required><br>
+        <input type="date">
+        <br>
+
+        <button type="submit">SAVE</button>
+        <button type="reset">CANCLE</button>
+
+    </form>
 </body>
 
-</html>
+</html

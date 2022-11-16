@@ -1,0 +1,12 @@
+.blue {
+    color: rgb(255, 179, 0);
+    font-style: italic;
+}
+
+label {
+    color: rgb(247, 5, 178);
+}
+
+#bold {
+    font-weight: bold;
+}
