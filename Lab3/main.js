@@ -50,4 +50,6 @@ $(function() {
     });
 
     $("#div_about").load("./Pages/about.html");
+    $("#div_form").load("./Pages/form.html");
+
 });
